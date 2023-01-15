@@ -21,30 +21,46 @@ const Navbar = () => {
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <Link to="/products/1">Women</Link>
+            <Link className="link" to="/products/1">
+              Women
+            </Link>
           </div>
           <div className="item">
-            <Link to="/products/2">Men</Link>
+            <Link className="link" to="/products/2">
+              Men
+            </Link>
           </div>
           <div className="item">
-            <Link to="/products/3">Children</Link>
+            <Link className="link" to="/products/3">
+              Children
+            </Link>
           </div>
         </div>
         <div className="center">
-          <Link to="/">ECOMM</Link>
+          <Link className="link" to="/">
+            ECOMM
+          </Link>
         </div>
         <div className="right">
-          <div className="">
-            <Link to="/">Hompage</Link>
+          <div className="item">
+            <Link className="link" to="/">
+              Hompage
+            </Link>
           </div>
-          <div className="">
-            <Link to="/">About</Link>
+          <div className="item">
+            <Link className="link" to="/">
+              About
+            </Link>
           </div>
-          <div className="">
-            <Link to="/">Contact</Link>
+          <div className="item">
+            <Link className="link" to="/">
+              Contact
+            </Link>
           </div>
-          <div className="">
-            <Link to="/">Stores</Link>
+          <div className="item">
+            <Link className="link" to="/">
+              Stores
+            </Link>
           </div>
           <div className="icons">
             <SearchIcon />
