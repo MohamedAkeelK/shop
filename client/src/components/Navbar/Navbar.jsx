@@ -14,11 +14,11 @@ const Navbar = () => {
         <div className="left">
           <div className="item">
             <img src="/img/en.png" alt="" />
-            <KeyboardArrowDownIcon />
+            <KeyboardArrowDownIcon className="icons" />
           </div>
           <div className="item">
             <span>USD</span>
-            <KeyboardArrowDownIcon />
+            <KeyboardArrowDownIcon className="icons" />
           </div>
           <div className="item">
             <Link className="link" to="/products/1">
